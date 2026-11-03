@@ -30,7 +30,7 @@
     "test:assistant-voice": "node --env-file=.env scripts/test-assistant-voice.mjs"
   },
   "dependencies": {
-    "next": "16.4.0",
+    "next": "16.4.3",
     "react": "19.2.4",
     "react-dom": "19.2.4",
     "mysql2": "^3.15.3",

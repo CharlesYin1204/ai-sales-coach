@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "date": "2026-10-13T18:57:08.321Z",
+  "checks": [
+    "uploaded recording listed immediately; private recordings isolated",
+    "untranscribed recording cannot produce an unsupported answer",
+    "visible native grouped picker, audio preview and responsive 360/390/768/1440 layouts",
+    "real recording transcription from assistant",
+    "live AI response uses recording evidence; thread reopens with voice context and access control"
+  ]
+}

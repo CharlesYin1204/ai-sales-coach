@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "checks": [
+    "mobile MIME alias and absent MIME validated using extension plus audio signature",
+    "fake audio and over-20MB uploads rejected",
+    "anonymous and cross-origin operations denied",
+    "speech model administration, key masking, disabled default rejection and live default preserved"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "completedAt": "2026-10-12T16:17:55.376Z",
+  "referenceDocument": "K2OWdzgodoq6qoxmhkccjMbtn7b",
+  "requirementsDocument": "UMqkd8Zg4oAyFUxAGTdcECRnnHc",
+  "featureSheets": [
+    {
+      "name": "前端功能",
+      "rows": 14
+    },
+    {
+      "name": "用户中心",
+      "rows": 8
+    },
+    {
+      "name": "管理员后台",
+      "rows": 7
+    },
+    {
+      "name": "范围与验收",
+      "rows": 7
+    }
+  ],
+  "app": "http://154.40.47.111:3030",
+  "health": {
+    "ok": true,
+    "app": "whale-coach",
+    "analysis": "simulation"
+  },
+  "databaseCounts": {
+    "users": 4,
+    "conversations": 3,
+    "findings": 15,
+    "stores": 2
+  },
+  "checks": [
+    "PRD readback",
+    "all 36 feature rows readback",
+    "13 API scenarios",
+    "all page browser smoke and mobile checks",
+    "complete browser flow with persistent data",
+    "environment and account file permissions",
+    "post-restart database availability"
+  ],
+  "limits": [
+    "Simulated keyword analysis, no live LLM or ASR",
+    "IP HTTP; no HTTPS domain supplied",
+    "External browser reachability not independently measured; server IP request and UFW rule verified"
+  ]
+}

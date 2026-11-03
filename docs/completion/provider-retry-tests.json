@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "checks": [
+    "transient rate limit retries and recovers",
+    "temporary upstream outage retries and recovers",
+    "persistent rate limit stops after three attempts",
+    "insufficient quota is not retried",
+    "invalid credential is not retried",
+    "retry delay respects overall timeout"
+  ]
+}

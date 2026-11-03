@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "checks": [
+    "browser invitation, one-time enrollment, role and store enforcement",
+    "revocation, no plaintext token readback, cross-store protection",
+    "browser recovery, token consumption and old-session invalidation",
+    "manager scope and privilege boundaries",
+    "review/assignment/completion notifications, isolation and deduplication",
+    "notification inbox, mark-all-read and mobile layout",
+    "member suspension revokes sessions"
+  ],
+  "pageErrors": []
+}

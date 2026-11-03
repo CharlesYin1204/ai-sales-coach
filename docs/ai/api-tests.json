@@ -1,0 +1,17 @@
+{
+  "passed": 12,
+  "tests": [
+    "model management permissions and encrypted keys",
+    "model validation rejects untrusted endpoints",
+    "model add/update masks and retains an unchanged key",
+    "AI response validation rejects invented evidence",
+    "real analysis persists structured output with verbatim evidence",
+    "AI coaching requires review and never creates tasks automatically",
+    "historical analysis is preserved when creating an AI copy",
+    "AI assistant uses permitted context and saves conversation history",
+    "report interpretation reads server-side scope, not client metrics",
+    "real recording transcription and retryable invalid audio failure",
+    "invalid model fails honestly without saving assistant messages",
+    "AI call logs expose usage/status but not secrets or prompts"
+  ]
+}

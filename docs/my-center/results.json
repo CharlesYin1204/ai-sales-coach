@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "checks": [
+    "sales: role-based entries, mobile navigation, account settings, responsive layouts and logout",
+    "manager: role-based entries, mobile navigation, account settings, responsive layouts and logout",
+    "admin: role-based entries, mobile navigation, account settings, responsive layouts and logout"
+  ]
+}

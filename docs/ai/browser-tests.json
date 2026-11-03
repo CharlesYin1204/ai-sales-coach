@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "steps": [
+    "administrator model edit with masked key and live connection test",
+    "AI invocation logs",
+    "real AI analysis, customer needs and source evidence navigation",
+    "AI coaching draft is editable and manually committed",
+    "context-aware AI assistant and persisted chat history",
+    "AI report interpretation",
+    "mobile layout"
+  ],
+  "pageErrors": []
+}

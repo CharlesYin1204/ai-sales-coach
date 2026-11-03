@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-13T18:47:15.296Z",
+  "passed": true,
+  "checks": [
+    {
+      "base": "https://whale.yinchao1204.vip",
+      "login": 200,
+      "session": 200,
+      "logout": 200,
+      "untrustedOrigin": 403
+    },
+    {
+      "base": "https://154.40.47.111:3443",
+      "login": 200,
+      "session": 200,
+      "logout": 200,
+      "untrustedOrigin": 403
+    },
+    {
+      "base": "http://154.40.47.111:3030",
+      "login": 200,
+      "session": 200,
+      "logout": 200,
+      "untrustedOrigin": 403
+    }
+  ]
+}

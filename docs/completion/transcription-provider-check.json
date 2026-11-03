@@ -1,0 +1,9 @@
+{
+  "checked_at": "2026-10-12T17:36:16.529Z",
+  "status": 429,
+  "model": "whisper-1",
+  "error_code": "unknown_error",
+  "error_type": "new_api_error",
+  "error_message": "当前分组上游负载已饱和，请稍后再试",
+  "success": false
+}

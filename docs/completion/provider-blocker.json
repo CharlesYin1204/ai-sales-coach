@@ -1,0 +1,6 @@
+{
+  "checked_at": "2026-10-12T17:41:52.188377+00:00",
+  "status": "resolved",
+  "note": "充值恢复聊天能力；语音上游故障通过已验证的gpt-4o-transcribe默认模型解决。全部模块验收通过。",
+  "evidence": "docs/completion/final-verification.json"
+}

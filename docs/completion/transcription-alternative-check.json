@@ -1,0 +1,8 @@
+{
+  "checked_at": "2026-10-12T17:37:24.044Z",
+  "status": 429,
+  "model": "gpt-4o-mini-transcribe",
+  "error_code": "account_deactivated",
+  "error_message": "当前分组上游负载已饱和，请稍后再试",
+  "success": false
+}

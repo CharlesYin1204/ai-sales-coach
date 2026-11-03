@@ -1,0 +1,20 @@
+{
+  "checked": [
+    "/app/conversations",
+    "/app/import",
+    "/app/reviews",
+    "/app/tasks",
+    "/app/reports",
+    "/center",
+    "/admin",
+    "/admin/users",
+    "/admin/stores",
+    "/admin/rules",
+    "/admin/audit"
+  ],
+  "desktop": "1440x1000",
+  "mobile": "390x844",
+  "evidenceNavigation": true,
+  "adminDialog": true,
+  "pageErrors": []
+}

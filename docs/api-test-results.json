@@ -1,0 +1,18 @@
+{
+  "passed": 13,
+  "tests": [
+    "health and unauthenticated protection",
+    "registration creates an isolated manager workspace",
+    "text import is persistent and starts pending",
+    "cross-store and administrator API access denied",
+    "AI produces source evidence and prevents repeated analysis",
+    "review permissions, corrections and insufficient evidence rules",
+    "task creation, duplicate rejection and assignee scope",
+    "completion requires feedback and report reflects persistent state",
+    "audio-only import fails honestly, playback protected, transcript retry works",
+    "server rejects invalid uploads and cross-origin writes",
+    "password change validates old password and revokes other sessions",
+    "disabled account loses access immediately",
+    "admin audit captures actions"
+  ]
+}

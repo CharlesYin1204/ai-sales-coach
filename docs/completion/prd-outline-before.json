@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "document": {
+      "content": "<fragment mode=\"outline\"><outline><h1 id=\"doxcnlqHQFj40hsx1guq2wFhnXd\">v2.0 更新：真实AI接入（2026-10-13）</h1><h2 id=\"doxcnCw5pQFDrl7Lvs3xgqqHSQe\">模型与使用入口</h2><h2 id=\"doxcnBW1dtvgCDNWABlDR40uk8c\">新增功能与验收规则</h2><h2 id=\"doxcn9VA9AvYcb0oGANKLNanMVd\">测试与能力边界</h2><h1 id=\"doxcnZByJpi4Qv9yWcj6T71dSvh\">v1.0 历史需求（AI范围以以上v2.0更新为准）</h1><h1 id=\"doxcnRMDAmEXQpCeM19Ws1oTI2b\" seq-marker=\"1.\">用户问题与来源</h1><h1 id=\"doxcn9HgU0raCuJ9UbdnpWRIwQK\" seq-marker=\"2.\">产品目标与交付范围</h1><h1 id=\"doxcnl1qc54HQUPwsSVp5oRol2c\" seq-marker=\"3.\">角色与数据范围</h1><h1 id=\"doxcnyucXmV5OuIMcIY3XATej1h\" seq-marker=\"4.\">核心场景与状态流</h1><h1 id=\"doxcnSYLifBTEotlRxBoGOpQgwN\" seq-marker=\"5.\">前端功能需求与验收</h1><h1 id=\"doxcncfTyCHWHprvHbVPHtzBfWh\" seq-marker=\"6.\">用户中心需求与验收</h1><h1 id=\"doxcnixfarLbKbTqejuJEOGdzCn\" seq-marker=\"7.\">管理员后台需求与验收</h1><h1 id=\"doxcnTb7oD7runqu9BxspU4apEc\" seq-marker=\"8.\">指标口径与验证计划</h1><h1 id=\"doxcnWHLH0fDHbAsTZSKtTYdmad\" seq-marker=\"9.\">异常、质量与安全要求</h1><h1 id=\"doxcnPlbK8mXzWlPlhUUnlr4zGw\" seq-marker=\"10.\">数据与部署约定</h1><h1 id=\"doxcnbdaknGZxegg7ZhBfXxbK0b\" seq-marker=\"11.\">完整验收与开放依赖</h1></outline></fragment>",
+      "document_id": "UMqkd8Zg4oAyFUxAGTdcECRnnHc",
+      "revision_id": 4
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "checked_at": "2026-10-12T17:31:18.760Z",
+  "model": "claude-opus-5-thinking",
+  "passed": true,
+  "status": 200,
+  "result": {
+    "text": "已连接成功。我是Claude，准备为你提供帮助。",
+    "model": "claude-opus-5-thinking",
+    "returned_model": "claude-opus-5",
+    "usage": {
+      "prompt_tokens": 4517,
+      "completion_tokens": 29,
+      "total_tokens": 4546,
+      "usage_semantic": "openai",
+      "usage_source": "anthropic",
+      "billing_usage": {
+        "source": "claude_messages",
+        "semantic": "anthropic",
+        "claude_usage": {
+          "input_tokens": 4,
+          "cache_creation_input_tokens": 1129,
+          "cache_read_input_tokens": 3384,
+          "output_tokens": 29,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 1129
+          },
+          "claude_cache_creation_5_m_tokens": 0,
+          "claude_cache_creation_1_h_tokens": 0
+        }
+      },
+      "prompt_tokens_details": {
+        "cached_tokens": 3384,
+        "cached_creation_tokens": 1129,
+        "cache_write_tokens": 1129,
+        "text_tokens": 0,
+        "audio_tokens": 0,
+        "image_tokens": 0
+      },
+      "completion_tokens_details": {
+        "text_tokens": 0,
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "reasoning_tokens": 0
+      },
+      "input_tokens": 4517,
+      "output_tokens": 0,
+      "input_tokens_details": null,
+      "claude_cache_creation_5_m_tokens": 1129,
+      "claude_cache_creation_1_h_tokens": 0
+    },
+    "duration_ms": 1140
+  }
+}

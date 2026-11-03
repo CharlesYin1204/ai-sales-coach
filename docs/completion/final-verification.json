@@ -1,0 +1,90 @@
+{
+  "checked_at": "2026-10-12T17:41:52.188377+00:00",
+  "complete": true,
+  "app": "http://154.40.47.111:3030",
+  "health": {
+    "ok": true,
+    "app": "whale-coach",
+    "analysis": "ai"
+  },
+  "reports": [
+    {
+      "path": "docs/api-test-results.json",
+      "checks": 13,
+      "modified_at": "2026-10-12T17:34:25.552689+00:00",
+      "sha256": "538e2fa94bae249c585c77209abf6fe3ec975ebc9ff6f2552d5f3e036410a952"
+    },
+    {
+      "path": "docs/ai/api-tests.json",
+      "checks": 12,
+      "modified_at": "2026-10-12T17:40:28.890411+00:00",
+      "sha256": "2c86ef36f85b2f30d3f02eb0f695f350f03c783dfe4e9fa50ec4dd1f272f141d"
+    },
+    {
+      "path": "docs/completion/knowledge-tests.json",
+      "checks": 7,
+      "modified_at": "2026-10-12T17:36:27.285255+00:00",
+      "sha256": "6a284a91ef501a74f6d768ebcc1943e4473b05ffdc06cbbf3eb49949c7284ce7"
+    },
+    {
+      "path": "docs/completion/collaboration-tests.json",
+      "checks": 7,
+      "modified_at": "2026-10-12T17:31:51.003991+00:00",
+      "sha256": "0af237b7154edc86cf7470851f13ed52c266bcba0b6df24ebe9d02eb3ee58eab"
+    },
+    {
+      "path": "docs/completion/query-tests.json",
+      "checks": 6,
+      "modified_at": "2026-10-12T17:32:03.464046+00:00",
+      "sha256": "f837490e054e3c80fdae0cc82eb6609eb56809c5db4100656b28c3f431d6c431"
+    },
+    {
+      "path": "docs/completion/admin-tests.json",
+      "checks": 7,
+      "modified_at": "2026-10-12T17:32:12.404086+00:00",
+      "sha256": "25c7a6c50f99008e88bc7656f9dfe9b4b8094a3f0b40878e0d5d8299f26fb5c4"
+    },
+    {
+      "path": "docs/browser-flow-results.json",
+      "checks": 12,
+      "modified_at": "2026-10-12T17:36:45.037339+00:00",
+      "sha256": "1f0a5de26aed9fe1cd535d3a3f625c677d5fea56c07dca6225f8d2c4a2646728"
+    },
+    {
+      "path": "docs/ai/browser-tests.json",
+      "checks": 7,
+      "modified_at": "2026-10-12T17:38:06.561726+00:00",
+      "sha256": "a115fb87202a1e7c88f22c326a29b6b848b7c47014daca2cdaf5daa590d7f2a1"
+    },
+    {
+      "path": "docs/ui-redesign/browser-results.json",
+      "checks": 55,
+      "modified_at": "2026-10-12T17:41:26.606692+00:00",
+      "sha256": "b16e9dc0f7c5452237cc4465d5c1d66444af2dbceade79ecbc0bc7924855e837"
+    },
+    {
+      "path": "docs/completion/provider-retry-tests.json",
+      "checks": 6,
+      "modified_at": "2026-10-12T17:32:06.848061+00:00",
+      "sha256": "1b053782fef712c7d2c9e29fe8cb95e7fab23f4135572984952f13d84bd4f1b2"
+    }
+  ],
+  "verification_mode": "全部模块分别执行并通过；原单次npm test曾遇到供应商通道故障，修复后重跑受影响套件并通过，不把中断命令记作成功。",
+  "default_transcription": "gpt-4o-transcribe",
+  "retained_unavailable_optional_model": "whisper-1（上游负载饱和，不影响默认转写）",
+  "backup": "database/backups/whale-2026-10-12T17-40-30-597Z.sql",
+  "source_hashes": {
+    "src/lib/ai.js": "402bdd36fc15af24ef985cf4dd786ed730092c35f288e75249b97c39f5e022dc",
+    "src/lib/ai-routes.js": "f9ffed70d5daa3a575e5944757d7c96a6b777d8d354da10f5c3944430b979a10",
+    "src/app/ai-ui.js": "0fc1542ee2adedc2407a9d77028729aa3b995cb6f6245f8152538ceee633a500",
+    "src/app/product.js": "ee22dc144a8cff4428f41c6d63208972dcffd2028598e288d21bd72c5ea1a1a6",
+    "src/lib/knowledge.js": "078a23857e2abd8a683b4871a5baae451eaf687fab60cbcbcbb0fe520d972866",
+    "src/lib/collaboration.js": "760ccf5e89ff8a90e44389f49cef44fb0e4dd08bb5ff48e9e42c9b80c680050f",
+    "src/lib/query-routes.js": "0ffcf3175c230697d87e3d94921218cddf6802b96bf9bf8de5f55220b7b41f48"
+  },
+  "external_boundaries": [
+    "参考文档明确硬件采集后续；当前不含硬件接入",
+    "邀请/找回通过链接交付，不虚构邮件或短信投递",
+    "按要求使用IP+端口；未提供HTTPS域名"
+  ]
+}

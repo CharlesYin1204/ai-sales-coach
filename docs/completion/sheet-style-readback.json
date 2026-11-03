@@ -1,0 +1,72 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "approx_char_count": 539,
+    "has_more": false,
+    "ranges": [
+      {
+        "actual_range": "A1:B2",
+        "cells": [
+          [
+            {
+              "cell_styles": {
+                "background_color": "#E4F0E9",
+                "font_color": "#344C43",
+                "font_size": 11,
+                "font_weight": "bold",
+                "horizontal_alignment": "center",
+                "vertical_alignment": "middle"
+              },
+              "value": "编号"
+            },
+            {
+              "cell_styles": {
+                "background_color": "#E4F0E9",
+                "font_color": "#344C43",
+                "font_size": 11,
+                "font_weight": "bold",
+                "horizontal_alignment": "center",
+                "vertical_alignment": "middle"
+              },
+              "value": "模块"
+            }
+          ],
+          [
+            {
+              "cell_styles": {
+                "font_color": "#344C43",
+                "font_size": 11,
+                "number_format": "@",
+                "vertical_alignment": "middle"
+              },
+              "value": "K01"
+            },
+            {
+              "cell_styles": {
+                "font_color": "#344C43",
+                "font_size": 11,
+                "number_format": "@",
+                "vertical_alignment": "middle"
+              },
+              "value": "知识维护"
+            }
+          ]
+        ],
+        "col_indices": [
+          "A",
+          "B"
+        ],
+        "range": "A1:B2",
+        "row_indices": [
+          1,
+          2
+        ],
+        "truncated": false
+      }
+    ],
+    "returned_cell_count": 4,
+    "revision": 72,
+    "warning_message": "处理 ranges[n].cells 之前，必须先查看顶层 has_more，以及每个 range 的 actual_range / row_indices / col_indices。定位真实行号时用 row_indices[i]，定位真实列字母时用 col_indices[j]，不要按二维数组下标自己数行列；skip_hidden=true、skip_filter=true 或结果被截断时，这样会错位。"
+  }
+}

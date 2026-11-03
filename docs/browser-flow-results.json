@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "steps": [
+    "register",
+    "import and real audio playback",
+    "analyze",
+    "source evidence navigation",
+    "correct review",
+    "create task",
+    "complete with feedback",
+    "reload persistence",
+    "report completion",
+    "CSV download",
+    "profile update persistence",
+    "logout"
+  ]
+}

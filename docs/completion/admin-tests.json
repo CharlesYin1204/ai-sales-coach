@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "checks": [
+    "store CRUD, user uniqueness and disabled-store access enforcement",
+    "self-administrator and historical store ownership protection",
+    "rule create/edit/disable and invalid-dimension rejection",
+    "profile persistence and explicit other-session revocation",
+    "login failure threshold, expired lock and successful counter reset",
+    "administrator cross-store account recovery and expiry",
+    "oversized recording rejection"
+  ]
+}

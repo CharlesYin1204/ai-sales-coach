@@ -1,0 +1,42 @@
+{
+  "name": "whale-coach",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev -H 0.0.0.0 -p 3030",
+    "build": "next build --webpack",
+    "start": "next start -H 0.0.0.0 -p 3030",
+    "db:init": "node --env-file=.env scripts/init-db.mjs",
+    "test": "npm run test:provider && npm run test:core && npm run test:ai && npm run test:knowledge && npm run test:collaboration && npm run test:query && npm run test:admin && npm run test:flow && npm run test:ui",
+    "db:ai": "node --env-file=.env scripts/setup-ai.mjs",
+    "test:browser:ai": "node --env-file=.env scripts/browser-ai.mjs",
+    "test:ui": "node scripts/browser-redesign.mjs",
+    "db:knowledge": "node --env-file=.env scripts/migrate-knowledge.mjs",
+    "db:collaboration": "node --env-file=.env scripts/migrate-collaboration.mjs",
+    "test:knowledge": "node --env-file=.env scripts/test-knowledge.mjs",
+    "test:collaboration": "node --env-file=.env scripts/test-collaboration.mjs",
+    "test:query": "node --env-file=.env scripts/test-query.mjs",
+    "test:core": "node --env-file=.env scripts/test.mjs",
+    "test:ai": "node --env-file=.env scripts/test-ai.mjs",
+    "test:admin": "node --env-file=.env scripts/test-admin-completion.mjs",
+    "test:flow": "node --env-file=.env scripts/browser-flow.mjs",
+    "test:provider": "node --env-file=.env scripts/test-provider-retry.mjs",
+    "db:voice": "node --env-file=.env scripts/migrate-voice.mjs",
+    "db:demo": "node --env-file=.env scripts/seed-demo-v4.mjs",
+    "test:voice": "node --env-file=.env scripts/test-voice-mobile.mjs",
+    "db:assistant-voice": "node --env-file=.env scripts/migrate-assistant-voice.mjs",
+    "test:assistant-voice": "node --env-file=.env scripts/test-assistant-voice.mjs"
+  },
+  "dependencies": {
+    "next": "16.4.0",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "mysql2": "^3.15.3",
+    "bcryptjs": "^3.0.3",
+    "lucide-react": "^0.468.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.58.0"
+  }
+}

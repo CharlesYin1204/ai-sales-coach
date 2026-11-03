@@ -1,0 +1,28 @@
+{
+  "checked_at": "2026-10-12T17:20:21.350204+00:00",
+  "health": {
+    "ok": true,
+    "app": "whale-coach",
+    "analysis": "ai"
+  },
+  "service": "active",
+  "build_passed": true,
+  "query_checks": {
+    "passed": true,
+    "checks": [
+      "full-scope dashboard and searchable records beyond prior 1000-row limit",
+      "pagination bounds and literal search escaping",
+      "audit history beyond 300 entries and administrative permissions",
+      "complete personal AI conversation and report history with isolation",
+      "AI assistant retains directly linked conversation older than first 1000 records",
+      "browser search, history pagination, reopening chats and report details"
+    ]
+  },
+  "ui_checks": 55,
+  "ui_note": "55项界面验收通过于上一构建；随后仅修复历史对话关联，并通过6项针对性查询/浏览器回归。",
+  "credential_file_modes": {
+    ".env": "0o600",
+    "docs/initial-credentials.json": "0o600"
+  },
+  "remaining_blocker": "AI供应商账户余额不足，完整实时回归尚未通过。"
+}

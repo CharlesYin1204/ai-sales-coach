@@ -1,0 +1,19 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "document": {
+      "content": "<fragment mode=\"keyword\" keyword=\"v4|语音工作室|录音主按钮\"><h1 id=\"doxcnfiq2LfIbKNeic895Bb9D8g\">v4 · 演示数据、语音工作室与移动端</h1><p id=\"doxcnPwR6YYk9RoglkIvRf7TS4b\">底部工作台/对话/录音/助手/我的导航；单列录音与合成表单。入口/范围：360/390/768视口。验收要求：无整页横向溢出；录音主按钮至少48px；适配安全区。</p></fragment>",
+      "document_id": "UMqkd8Zg4oAyFUxAGTdcECRnnHc",
+      "revision_id": 13
+    }
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.97",
+      "latest": "1.0.98",
+      "message": "lark-cli 1.0.98 available, current 1.0.97, run: lark-cli update"
+    }
+  }
+}

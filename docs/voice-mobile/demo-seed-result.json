@@ -1,0 +1,12 @@
+{
+  "created_at": "2026-10-13T18:19:15.329Z",
+  "inserted": {
+    "conversations": 0,
+    "findings": 0,
+    "tasks": 0,
+    "knowledge": 0,
+    "notifications": 0,
+    "voices": 0
+  },
+  "note": "Idempotent fictional demo data; no real customer or employee performance data; speech clearly labeled AI-generated."
+}

@@ -1,0 +1,92 @@
+{
+  "gpt-5.6-luna": {
+    "text": "连接成功",
+    "returned_model": "gpt-5.6-luna-2026-07-09",
+    "ms": 1972
+  },
+  "claude-opus-5-thinking": {
+    "text": "连接成功",
+    "returned_model": "claude-opus-5",
+    "ms": 931
+  },
+  "transcription": {
+    "text": "The customer has a budget of $20,000. The car is for family use. They plan to buy next month. The sales advisor should arrange a test drive.",
+    "model": "whisper-1",
+    "ms": 1532
+  },
+  "analysis": {
+    "summary": "客户已初步表达预算约20万元、主要用于接送孩子并计划下个月购车，但销售尚未完成关键需求确认，也未明确安排试驾和后续跟进。",
+    "customer_needs": [
+      "预算约20万元左右，具体为裸车价还是落地价尚未确认",
+      "主要用于接送孩子，其他用车场景和空间需求未确认",
+      "计划下个月购车，具体购车日期和决策节奏未确认"
+    ],
+    "strengths": [
+      "客户主动提供了预算、主要用途和购车时间",
+      "销售提出带客户看展车，具备继续接触的入口"
+    ],
+    "risks": [
+      "预算仅被客户初步提及，未确认价格口径、付款方式及可接受上限",
+      "仅了解接送孩子，未确认乘坐人数、空间、安全配置等购车标准",
+      "下个月购车时间较近，但未锁定具体时间和推进节点",
+      "看展车不等同于安排试驾，客户实际驾驶体验尚未落实",
+      "未发现明确的回访时间、联系人或下一步跟进计划"
+    ],
+    "next_actions": [
+      "确认20万元是裸车预算还是落地预算，并了解付款方式及可接受上限",
+      "围绕接送孩子补充确认乘坐人数、儿童安全、后备厢空间、日常行驶距离等需求",
+      "确认下个月的具体购车日期、决策人和购车流程",
+      "提供可选车型后，明确预约试驾的日期和时间",
+      "在看车或试驾后约定具体回访时间，并记录待解决问题"
+    ],
+    "score": 0,
+    "findings": [
+      {
+        "dimension": "预算",
+        "verdict": "已提及但确认不充分",
+        "evidence": "客户：我想先看看二十万元左右的车型。",
+        "line_index": 0,
+        "confidence": 98,
+        "covered": false,
+        "suggestion": "确认20万元对应裸车价还是落地价，并补充付款方式、可接受上限及购置税保险等费用范围。"
+      },
+      {
+        "dimension": "用途",
+        "verdict": "已识别主要用途，但需求不完整",
+        "evidence": "客户：主要是接送孩子，计划下个月买。",
+        "line_index": 2,
+        "confidence": 97,
+        "covered": false,
+        "suggestion": "继续确认乘坐人数、儿童安全需求、后备厢空间、通勤距离及是否存在周末长途等场景。"
+      },
+      {
+        "dimension": "时间",
+        "verdict": "已提及购车月份，但未形成明确计划",
+        "evidence": "客户：主要是接送孩子，计划下个月买。",
+        "line_index": 2,
+        "confidence": 97,
+        "covered": false,
+        "suggestion": "确认下个月的具体购车日期、决策人和预计下订节点，并据此安排看车与试驾。"
+      },
+      {
+        "dimension": "试驾",
+        "verdict": "未明确安排试驾",
+        "evidence": "销售：我们去看展车吧。",
+        "line_index": 3,
+        "confidence": 96,
+        "covered": false,
+        "suggestion": "将看展车进一步落实为试驾邀约，确认可试驾车型、日期和时间。"
+      },
+      {
+        "dimension": "跟进",
+        "verdict": "未观察到明确的后续跟进安排",
+        "evidence": "销售：我们去看展车吧。",
+        "line_index": 3,
+        "confidence": 94,
+        "covered": false,
+        "suggestion": "明确下一步联系人、到店或试驾时间、跟进方式及下次回访节点。"
+      }
+    ],
+    "model": "gpt-5.6-luna"
+  }
+}

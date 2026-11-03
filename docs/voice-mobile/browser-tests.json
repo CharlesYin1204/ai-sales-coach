@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "checked_at": "2026-10-13T18:27:00.747Z",
+  "base": "https://154.40.47.111:3443",
+  "checks": [
+    "trusted IP HTTPS login with Secure session cookie",
+    "mobile microphone recording, pause/resume, preview, persistent upload and microphone release",
+    "authenticated audio playback, range seeking and owner isolation",
+    "recorded microphone audio transcribes through the live model",
+    "correct transcript and import independent persistent conversation",
+    "live Chinese text-to-speech, voice/speed selection, audio playback and MP3 download",
+    "speech history survives reload with original text",
+    "360/390/768 responsive layout and bottom navigation",
+    "input validation, immutable synthesis text and authenticated permanent deletion",
+    "microphone permission denial produces actionable error"
+  ],
+  "pageErrors": [],
+  "realMicrophoneStream": "Chromium fake device fed known speech WAV; real MediaRecorder, upload and provider transcription",
+  "physicalDeviceNote": "实际iOS/Android硬件需现场验收；本次覆盖可信HTTPS、浏览器麦克风和手机视口。"
+}

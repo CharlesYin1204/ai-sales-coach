@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "checks": [
+    "final deployed voice screen at desktop and phone sizes",
+    "48px recording controls",
+    "pending microphone permission prevents hidden recording via tab switch"
+  ]
+}

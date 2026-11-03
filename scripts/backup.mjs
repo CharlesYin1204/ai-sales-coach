@@ -1,0 +1,3 @@
+import {spawn} from 'node:child_process';import {mkdir,open} from 'node:fs/promises';
+await mkdir('database/backups',{recursive:true,mode:0o700});const date=new Date().toISOString().replace(/[:.]/g,'-');const filename=`database/backups/whale-${date}.sql`;const file=await open(filename,'wx',0o600);
+const child=spawn('mysqldump',['--host='+process.env.DB_HOST,'--user='+process.env.DB_USER,'--single-transaction','--no-tablespaces','--skip-lock-tables',process.env.DB_NAME],{env:{...process.env,MYSQL_PWD:process.env.DB_PASSWORD},stdio:['ignore',file.fd,'pipe']});let err='';child.stderr.on('data',b=>err+=b);const code=await new Promise(resolve=>child.on('close',resolve));await file.close();if(code!==0)throw new Error(err||'Backup failed');console.log(filename);

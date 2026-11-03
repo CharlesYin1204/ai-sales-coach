@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "checks": [
+    "populated list scrolls inside field",
+    "voice selection retained",
+    "Escape closes options before dialog"
+  ]
+}

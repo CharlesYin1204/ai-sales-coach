@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "checks": [
+    "draft, creation and cross-store access isolation",
+    "publish, revision conflict and editing permissions",
+    "search and immutable version records",
+    "live AI retrieval and persisted versioned source citation",
+    "archived documents excluded from new retrieval and source access",
+    "paginated listing includes all permitted records",
+    "browser text import, publication, details, versions and mobile layout"
+  ],
+  "liveAI": true
+}

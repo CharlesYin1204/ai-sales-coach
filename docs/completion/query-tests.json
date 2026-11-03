@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "checks": [
+    "full-scope dashboard and searchable records beyond prior 1000-row limit",
+    "pagination bounds and literal search escaping",
+    "audit history beyond 300 entries and administrative permissions",
+    "complete personal AI conversation and report history with isolation",
+    "AI assistant retains directly linked conversation older than first 1000 records",
+    "browser search, history pagination, reopening chats and report details"
+  ]
+}

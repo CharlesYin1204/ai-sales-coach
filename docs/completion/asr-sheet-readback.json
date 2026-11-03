@@ -1,0 +1,97 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "approx_char_count": 820,
+    "has_more": false,
+    "ranges": [
+      {
+        "actual_range": "A6:G6",
+        "cells": [
+          [
+            {
+              "cell_styles": {
+                "font_color": "#344C43",
+                "font_size": 11,
+                "number_format": "@",
+                "vertical_alignment": "middle"
+              },
+              "value": "AI05"
+            },
+            {
+              "cell_styles": {
+                "font_color": "#344C43",
+                "font_size": 11,
+                "number_format": "@",
+                "vertical_alignment": "middle"
+              },
+              "value": "语音转写"
+            },
+            {
+              "cell_styles": {
+                "font_color": "#344C43",
+                "font_size": 11,
+                "number_format": "@",
+                "vertical_alignment": "middle"
+              },
+              "value": "登录用户"
+            },
+            {
+              "cell_styles": {
+                "font_color": "#344C43",
+                "font_size": 11,
+                "number_format": "@",
+                "vertical_alignment": "middle"
+              },
+              "value": "使用默认语音模型识别录音，当前gpt-4o-transcribe；可单独转写或分析前自动转写"
+            },
+            {
+              "cell_styles": {
+                "font_color": "#344C43",
+                "font_size": 11,
+                "number_format": "@",
+                "vertical_alignment": "middle"
+              },
+              "value": "导入与对话详情"
+            },
+            {
+              "cell_styles": {
+                "font_color": "#344C43",
+                "font_size": 11,
+                "number_format": "@",
+                "vertical_alignment": "middle"
+              },
+              "value": "真实录音识别通过；失败可补文重试；不自动区分说话人"
+            },
+            {
+              "cell_styles": {
+                "font_color": "#344C43",
+                "font_size": 11,
+                "number_format": "@",
+                "vertical_alignment": "middle"
+              },
+              "value": "P0"
+            }
+          ]
+        ],
+        "col_indices": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G"
+        ],
+        "range": "A6:G6",
+        "row_indices": [
+          6
+        ],
+        "truncated": false
+      }
+    ],
+    "returned_cell_count": 7,
+    "revision": 73,
+    "warning_message": "处理 ranges[n].cells 之前，必须先查看顶层 has_more，以及每个 range 的 actual_range / row_indices / col_indices。定位真实行号时用 row_indices[i]，定位真实列字母时用 col_indices[j]，不要按二维数组下标自己数行列；skip_hidden=true、skip_filter=true 或结果被截断时，这样会错位。"
+  }
+}

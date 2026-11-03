@@ -1,0 +1,94 @@
+{
+  "complete": true,
+  "checked_at": "2026-10-13T18:29:58.134713+00:00",
+  "requirements": [
+    {
+      "requirement": "足量演示数据",
+      "status": "verified",
+      "evidence": [
+        "demo-first-import.json",
+        "demo-validation.json"
+      ],
+      "scope": "36接待/140结论/14任务/12知识/12通知/8语音；两门店、不同状态；幂等"
+    },
+    {
+      "requirement": "浏览器录音",
+      "status": "verified",
+      "evidence": [
+        "browser-tests.json",
+        "final-ui-check.json"
+      ],
+      "scope": "可信HTTPS、开始/暂停/继续/结束/回听/保存；释放麦克风、权限拒绝与等待"
+    },
+    {
+      "requirement": "文本转语音",
+      "status": "verified",
+      "evidence": [
+        "browser-tests.json",
+        "chinese-roundtrip.json"
+      ],
+      "scope": "真实中文AI语音、音色/速度、MP3下载、原文与历史保存"
+    },
+    {
+      "requirement": "语音转文本",
+      "status": "verified",
+      "evidence": [
+        "browser-tests.json",
+        "recording-transcription.json",
+        "audio-format-tests.json",
+        "chinese-roundtrip.json"
+      ],
+      "scope": "真实MediaRecorder录音转写、五种格式转换、校对和导入独立接待"
+    },
+    {
+      "requirement": "移动端UI适配",
+      "status": "verified",
+      "evidence": [
+        "browser-tests.json",
+        "final-ui-check.json",
+        "../ui-redesign/browser-results.json"
+      ],
+      "scope": "360/390/768视口；底部导航、单列录音及合成；55项既有界面检查"
+    },
+    {
+      "requirement": "权限与部署",
+      "status": "verified",
+      "evidence": [
+        "browser-tests.json",
+        "validation-tests.json"
+      ],
+      "scope": "个人语音隔离、分段播放、输入校验、模型类型与密钥保护；HTTPS3443与HTTP3030健康"
+    }
+  ],
+  "backup": "database/backups/whale-2026-10-13T18-29-38-606Z.sql",
+  "https": "https://154.40.47.111:3443",
+  "http": "http://154.40.47.111:3030",
+  "voice_models": {
+    "speech": "gpt-4o-mini-tts",
+    "transcription": "gpt-4o-transcribe"
+  },
+  "docs_verified": {
+    "prd": true,
+    "feature_rows": 9
+  },
+  "runtime_dependencies": [
+    "ffmpeg",
+    "ffprobe"
+  ],
+  "certificate": "notBefore=Oct 12 15:51:33 2026 GMT\nnotAfter=Oct 19 07:51:32 2026 GMT\nX509v3 Subject Alternative Name: critical\n    IP Address:154.40.47.111\n",
+  "renewal_timer_enabled": "enabled",
+  "limits": [
+    "录音单次10分钟/20MB；上传转写最长30分钟",
+    "浏览器麦克风需要HTTPS及用户授权",
+    "实际iOS/Android硬件未现场测试；已验证真实MediaRecorder测试音源及手机浏览器视口"
+  ],
+  "source_hashes": {
+    "src/app/voice-ui.jsx": "0d693719dabe953c2c48c5662e463856fef27c9a0c3a8649a78daa3331435217",
+    "src/app/product.js": "44bd8e403ea1932b183b2ec900c7d3e1d57ebe623fb480e85f65624cc517fb20",
+    "src/app/globals.css": "83d01a5b09153dfb428209dedc05da3c5eea5e05071ecac9c70cf3a147122a6f",
+    "src/lib/voice.js": "2ce289ad5ed85b8ccd4d5f15119231b5097b5fbe135fe19f529063dd0e15692c",
+    "src/lib/audio.js": "1daa08637b77c54957f4d714341b10b672b91ba91f797e7eac12d9155a7f99e7",
+    "src/lib/ai.js": "10c08681e91b37da452524b2db32534368292a6423aeb3814d93b6d3a93e499a",
+    "scripts/seed-demo-v4.mjs": "bcdeb3d6be7637c5c44e1bd7bed1f26b100074cf25c767b0dde5059579b6a1ae"
+  }
+}

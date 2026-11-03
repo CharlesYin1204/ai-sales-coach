@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "checked_at": "2026-10-13T18:22:46.067Z",
+  "inputBytes": 124323,
+  "mp3Bytes": 64845,
+  "text": "The customer has a budget of $20,000. The car is for family use. They plan to buy next month.",
+  "model": "gpt-4o-transcribe"
+}

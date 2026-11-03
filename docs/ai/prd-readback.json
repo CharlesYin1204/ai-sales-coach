@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "document": {
+      "content": "<fragment mode=\"keyword\" keyword=\"v2.0|AI01|AI10|12项\"><h1 id=\"doxcnlqHQFj40hsx1guq2wFhnXd\">v2.0 更新：真实AI接入（2026-10-13）</h1><p id=\"doxcnweGMezdaRWzvbZaf9pgGQe\">AI10 失败与安全：HTTPS域名限制、密钥加密、处理锁、限流、失败重试。验收：越权/非法地址/停用模型/无效录音均已测试；证据不足仍需人工判断。</p><p id=\"doxcnDm7aQgFpMuRp2HeF1iXNCh\">两个对话模型及Whisper真实调用通过；12项接口验收与7项浏览器流程通过，覆盖模型管理、上下文助手、证据定位、辅导草稿、报表解读、权限、失败重试和手机布局。报告与截图保存在服务器/www/wwwroot/whale/docs/ai/。</p><p id=\"doxcnaB1fEZgtgwgrdsNQUkajzf\">功能表新增“AI功能 v2”工作表，包含AI01–AI10。原有四张工作表保留v1.0范围，AI能力以新增工作表为准。</p><h1 id=\"doxcnZByJpi4Qv9yWcj6T71dSvh\">v1.0 历史需求（AI范围以以上v2.0更新为准）</h1></fragment>",
+      "document_id": "UMqkd8Zg4oAyFUxAGTdcECRnnHc",
+      "revision_id": 4
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "checks": [
+    "wav decodes to valid normalized MP3",
+    "mp3 decodes to valid normalized MP3",
+    "m4a decodes to valid normalized MP3",
+    "ogg decodes to valid normalized MP3",
+    "webm decodes to valid normalized MP3",
+    "invalid audio fails honestly"
+  ]
+}

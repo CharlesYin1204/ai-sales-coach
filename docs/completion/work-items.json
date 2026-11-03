@@ -1,0 +1,53 @@
+{
+  "objective": "完成销售复盘与辅导产品全部功能模块，并逐项核验",
+  "scope_basis": "参考文档第4节、现有F01-F14/U01-U08/A01-A07、AI01-AI10，以及本轮要求补齐的产品闭环",
+  "items": [
+    {
+      "id": "CORE",
+      "module": "全部既有功能",
+      "required": "按原功能表逐项核验业务读写、状态、权限、页面、部署，不能只看页面",
+      "status": "verified"
+    },
+    {
+      "id": "KNOWLEDGE",
+      "module": "企业知识库",
+      "required": "知识新增/编辑、文本导入、发布/归档、作用域、分页搜索、带来源的AI检索引用",
+      "status": "verified"
+    },
+    {
+      "id": "TEAM",
+      "module": "团队管理",
+      "required": "店长管理本店销售成员、邀请加入、用户权限与停用、自助加入不越权",
+      "status": "verified"
+    },
+    {
+      "id": "INBOX",
+      "module": "站内通知",
+      "required": "任务分配、任务完成、复核反馈提醒；未读计数、标记已读、定位业务对象",
+      "status": "verified"
+    },
+    {
+      "id": "RECOVERY",
+      "module": "账号找回",
+      "required": "安全的一次性找回凭证，重置撤销旧会话，管理员协助入口，不依赖虚构邮件投递",
+      "status": "verified"
+    },
+    {
+      "id": "QUERY",
+      "module": "查询与历史",
+      "required": "完整列表查询与分页、服务器统计、AI报表解读历史、会话历史入口",
+      "status": "verified",
+      "evidence": "docs/completion/query-tests.json: 6 checks, including older directly linked conversations"
+    },
+    {
+      "id": "DELIVERY",
+      "module": "交付验收",
+      "required": "飞书需求/功能表同步、全流程和权限测试、生产构建与服务器部署验证",
+      "status": "verified"
+    }
+  ],
+  "external_dependencies": "原始方案明确硬件采集留到后续；独立的五条公司产品线并非本产品的模块。实际外部邮件/短信投递须有服务凭据，不假报已投递。",
+  "updated_at": "2026-10-12T17:41:52.188377+00:00",
+  "blocker": null,
+  "current_activity": "全部要求范围内模块验收完成，生产服务正常。"
+}

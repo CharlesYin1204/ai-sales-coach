@@ -1,0 +1,666 @@
+{
+  "checked_at": "2026-10-12T17:41:52.188377+00:00",
+  "overall": "complete",
+  "current_provider_blocker": null,
+  "requirements": [
+    {
+      "id": "F01",
+      "module": "产品首页",
+      "status": "verified",
+      "evidence": [
+        "docs/ui-redesign/browser-results.json",
+        "docs/completion/final-verification.json"
+      ],
+      "note": "v1历史条目；分析/语音以v2真实AI实现为准，查询限制与知识库/通知以v3为准。"
+    },
+    {
+      "id": "F02",
+      "module": "工作台",
+      "status": "verified",
+      "evidence": [
+        "docs/ui-redesign/browser-results.json",
+        "docs/completion/query-tests.json",
+        "docs/completion/final-verification.json"
+      ],
+      "note": "v1历史条目；分析/语音以v2真实AI实现为准，查询限制与知识库/通知以v3为准。"
+    },
+    {
+      "id": "F03",
+      "module": "文字导入",
+      "status": "verified",
+      "evidence": [
+        "docs/ui-redesign/browser-results.json",
+        "docs/completion/final-verification.json"
+      ],
+      "note": "v1历史条目；分析/语音以v2真实AI实现为准，查询限制与知识库/通知以v3为准。"
+    },
+    {
+      "id": "F04",
+      "module": "录音保存与回听",
+      "status": "verified",
+      "evidence": [
+        "docs/ui-redesign/browser-results.json",
+        "docs/ai/api-tests.json",
+        "docs/ai/browser-tests.json",
+        "docs/completion/final-verification.json"
+      ],
+      "note": "v1历史条目；分析/语音以v2真实AI实现为准，查询限制与知识库/通知以v3为准。"
+    },
+    {
+      "id": "F05",
+      "module": "模拟分析",
+      "status": "verified",
+      "evidence": [
+        "docs/ui-redesign/browser-results.json",
+        "docs/ai/api-tests.json",
+        "docs/ai/browser-tests.json",
+        "docs/completion/final-verification.json"
+      ],
+      "note": "v1历史条目；分析/语音以v2真实AI实现为准，查询限制与知识库/通知以v3为准。"
+    },
+    {
+      "id": "F06",
+      "module": "异常与重试",
+      "status": "verified",
+      "evidence": [
+        "docs/ui-redesign/browser-results.json",
+        "docs/ai/api-tests.json",
+        "docs/ai/browser-tests.json",
+        "docs/completion/final-verification.json"
+      ],
+      "note": "v1历史条目；分析/语音以v2真实AI实现为准，查询限制与知识库/通知以v3为准。"
+    },
+    {
+      "id": "F07",
+      "module": "对话检索",
+      "status": "verified",
+      "evidence": [
+        "docs/ui-redesign/browser-results.json",
+        "docs/completion/query-tests.json",
+        "docs/completion/final-verification.json"
+      ],
+      "note": "v1历史条目；分析/语音以v2真实AI实现为准，查询限制与知识库/通知以v3为准。"
+    },
+    {
+      "id": "F08",
+      "module": "证据定位",
+      "status": "verified",
+      "evidence": [
+        "docs/ui-redesign/browser-results.json",
+        "docs/ai/api-tests.json",
+        "docs/ai/browser-tests.json",
+        "docs/completion/final-verification.json"
+      ],
+      "note": "v1历史条目；分析/语音以v2真实AI实现为准，查询限制与知识库/通知以v3为准。"
+    },
+    {
+      "id": "F09",
+      "module": "人工复核",
+      "status": "verified",
+      "evidence": [
+        "docs/ui-redesign/browser-results.json",
+        "docs/completion/collaboration-tests.json",
+        "docs/ai/browser-tests.json",
+        "docs/completion/final-verification.json"
+      ],
+      "note": "v1历史条目；分析/语音以v2真实AI实现为准，查询限制与知识库/通知以v3为准。"
+    },
+    {
+      "id": "F10",
+      "module": "辅导任务创建",
+      "status": "verified",
+      "evidence": [
+        "docs/ui-redesign/browser-results.json",
+        "docs/completion/collaboration-tests.json",
+        "docs/ai/browser-tests.json",
+        "docs/completion/final-verification.json"
+      ],
+      "note": "v1历史条目；分析/语音以v2真实AI实现为准，查询限制与知识库/通知以v3为准。"
+    },
+    {
+      "id": "F11",
+      "module": "任务执行",
+      "status": "verified",
+      "evidence": [
+        "docs/ui-redesign/browser-results.json",
+        "docs/completion/collaboration-tests.json",
+        "docs/ai/browser-tests.json",
+        "docs/completion/final-verification.json"
+      ],
+      "note": "v1历史条目；分析/语音以v2真实AI实现为准，查询限制与知识库/通知以v3为准。"
+    },
+    {
+      "id": "F12",
+      "module": "效果追踪",
+      "status": "verified",
+      "evidence": [
+        "docs/ui-redesign/browser-results.json",
+        "docs/ai/api-tests.json",
+        "docs/ai/browser-tests.json",
+        "docs/completion/final-verification.json"
+      ],
+      "note": "v1历史条目；分析/语音以v2真实AI实现为准，查询限制与知识库/通知以v3为准。"
+    },
+    {
+      "id": "F13",
+      "module": "导出报表",
+      "status": "verified",
+      "evidence": [
+        "docs/ui-redesign/browser-results.json",
+        "docs/ai/api-tests.json",
+        "docs/ai/browser-tests.json",
+        "docs/completion/final-verification.json"
+      ],
+      "note": "v1历史条目；分析/语音以v2真实AI实现为准，查询限制与知识库/通知以v3为准。"
+    },
+    {
+      "id": "F14",
+      "module": "响应式导航",
+      "status": "verified",
+      "evidence": [
+        "docs/ui-redesign/browser-results.json",
+        "docs/completion/final-verification.json"
+      ],
+      "note": "v1历史条目；分析/语音以v2真实AI实现为准，查询限制与知识库/通知以v3为准。"
+    },
+    {
+      "id": "U01",
+      "module": "注册工作空间",
+      "status": "verified",
+      "evidence": [
+        "docs/ui-redesign/browser-results.json",
+        "docs/completion/collaboration-tests.json",
+        "docs/completion/admin-tests.json",
+        "docs/completion/final-verification.json"
+      ],
+      "note": "v1历史条目；分析/语音以v2真实AI实现为准，查询限制与知识库/通知以v3为准。"
+    },
+    {
+      "id": "U02",
+      "module": "登录与退出",
+      "status": "verified",
+      "evidence": [
+        "docs/ui-redesign/browser-results.json",
+        "docs/completion/collaboration-tests.json",
+        "docs/completion/admin-tests.json",
+        "docs/completion/final-verification.json"
+      ],
+      "note": "v1历史条目；分析/语音以v2真实AI实现为准，查询限制与知识库/通知以v3为准。"
+    },
+    {
+      "id": "U03",
+      "module": "个人资料",
+      "status": "verified",
+      "evidence": [
+        "docs/ui-redesign/browser-results.json",
+        "docs/completion/admin-tests.json",
+        "docs/completion/final-verification.json"
+      ],
+      "note": "v1历史条目；分析/语音以v2真实AI实现为准，查询限制与知识库/通知以v3为准。"
+    },
+    {
+      "id": "U04",
+      "module": "密码修改",
+      "status": "verified",
+      "evidence": [
+        "docs/ui-redesign/browser-results.json",
+        "docs/completion/collaboration-tests.json",
+        "docs/completion/admin-tests.json",
+        "docs/completion/final-verification.json"
+      ],
+      "note": "v1历史条目；分析/语音以v2真实AI实现为准，查询限制与知识库/通知以v3为准。"
+    },
+    {
+      "id": "U05",
+      "module": "会话管理",
+      "status": "verified",
+      "evidence": [
+        "docs/ui-redesign/browser-results.json",
+        "docs/completion/admin-tests.json",
+        "docs/completion/final-verification.json"
+      ],
+      "note": "v1历史条目；分析/语音以v2真实AI实现为准，查询限制与知识库/通知以v3为准。"
+    },
+    {
+      "id": "U06",
+      "module": "我的待办",
+      "status": "verified",
+      "evidence": [
+        "docs/ui-redesign/browser-results.json",
+        "docs/completion/collaboration-tests.json",
+        "docs/ai/browser-tests.json",
+        "docs/completion/final-verification.json"
+      ],
+      "note": "v1历史条目；分析/语音以v2真实AI实现为准，查询限制与知识库/通知以v3为准。"
+    },
+    {
+      "id": "U07",
+      "module": "访问权限",
+      "status": "verified",
+      "evidence": [
+        "docs/ui-redesign/browser-results.json",
+        "docs/completion/collaboration-tests.json",
+        "docs/completion/admin-tests.json",
+        "docs/completion/final-verification.json"
+      ],
+      "note": "v1历史条目；分析/语音以v2真实AI实现为准，查询限制与知识库/通知以v3为准。"
+    },
+    {
+      "id": "U08",
+      "module": "登录保护",
+      "status": "verified",
+      "evidence": [
+        "docs/ui-redesign/browser-results.json",
+        "docs/completion/admin-tests.json",
+        "docs/completion/final-verification.json"
+      ],
+      "note": "v1历史条目；分析/语音以v2真实AI实现为准，查询限制与知识库/通知以v3为准。"
+    },
+    {
+      "id": "A01",
+      "module": "管理概览",
+      "status": "verified",
+      "evidence": [
+        "docs/ui-redesign/browser-results.json",
+        "docs/completion/admin-tests.json",
+        "docs/completion/final-verification.json"
+      ],
+      "note": "v1历史条目；分析/语音以v2真实AI实现为准，查询限制与知识库/通知以v3为准。"
+    },
+    {
+      "id": "A02",
+      "module": "用户查询与新增",
+      "status": "verified",
+      "evidence": [
+        "docs/ui-redesign/browser-results.json",
+        "docs/completion/admin-tests.json",
+        "docs/completion/final-verification.json"
+      ],
+      "note": "v1历史条目；分析/语音以v2真实AI实现为准，查询限制与知识库/通知以v3为准。"
+    },
+    {
+      "id": "A03",
+      "module": "用户权限与停用",
+      "status": "verified",
+      "evidence": [
+        "docs/ui-redesign/browser-results.json",
+        "docs/completion/admin-tests.json",
+        "docs/completion/final-verification.json"
+      ],
+      "note": "v1历史条目；分析/语音以v2真实AI实现为准，查询限制与知识库/通知以v3为准。"
+    },
+    {
+      "id": "A04",
+      "module": "门店管理",
+      "status": "verified",
+      "evidence": [
+        "docs/ui-redesign/browser-results.json",
+        "docs/completion/admin-tests.json",
+        "docs/completion/final-verification.json"
+      ],
+      "note": "v1历史条目；分析/语音以v2真实AI实现为准，查询限制与知识库/通知以v3为准。"
+    },
+    {
+      "id": "A05",
+      "module": "规则管理",
+      "status": "verified",
+      "evidence": [
+        "docs/ui-redesign/browser-results.json",
+        "docs/completion/admin-tests.json",
+        "docs/completion/final-verification.json"
+      ],
+      "note": "v1历史条目；分析/语音以v2真实AI实现为准，查询限制与知识库/通知以v3为准。"
+    },
+    {
+      "id": "A06",
+      "module": "操作日志",
+      "status": "verified",
+      "evidence": [
+        "docs/ui-redesign/browser-results.json",
+        "docs/completion/admin-tests.json",
+        "docs/completion/query-tests.json",
+        "docs/completion/final-verification.json"
+      ],
+      "note": "v1历史条目；分析/语音以v2真实AI实现为准，查询限制与知识库/通知以v3为准。"
+    },
+    {
+      "id": "A07",
+      "module": "后台鉴权",
+      "status": "verified",
+      "evidence": [
+        "docs/ui-redesign/browser-results.json",
+        "docs/completion/admin-tests.json",
+        "docs/completion/final-verification.json"
+      ],
+      "note": "v1历史条目；分析/语音以v2真实AI实现为准，查询限制与知识库/通知以v3为准。"
+    },
+    {
+      "id": "B01",
+      "module": "分析能力",
+      "status": "verified",
+      "evidence": [
+        "docs/ui-redesign/browser-results.json",
+        "docs/ai/api-tests.json",
+        "docs/ai/browser-tests.json",
+        "docs/completion/final-verification.json"
+      ],
+      "note": "v1历史条目；分析/语音以v2真实AI实现为准，查询限制与知识库/通知以v3为准。"
+    },
+    {
+      "id": "B02",
+      "module": "语音能力",
+      "status": "verified",
+      "evidence": [
+        "docs/ui-redesign/browser-results.json",
+        "docs/ai/api-tests.json",
+        "docs/ai/browser-tests.json",
+        "docs/completion/final-verification.json"
+      ],
+      "note": "v1历史条目；分析/语音以v2真实AI实现为准，查询限制与知识库/通知以v3为准。"
+    },
+    {
+      "id": "B03",
+      "module": "演示样本",
+      "status": "verified",
+      "evidence": [
+        "docs/ui-redesign/browser-results.json",
+        "docs/completion/final-verification.json"
+      ],
+      "note": "v1历史条目；分析/语音以v2真实AI实现为准，查询限制与知识库/通知以v3为准。"
+    },
+    {
+      "id": "B04",
+      "module": "部署",
+      "status": "verified",
+      "evidence": [
+        "docs/ui-redesign/browser-results.json",
+        "README.md",
+        "database/migrations",
+        "database/backups",
+        "docs/completion/deployment-check.json",
+        "docs/completion/final-verification.json"
+      ],
+      "note": "v1历史条目；分析/语音以v2真实AI实现为准，查询限制与知识库/通知以v3为准。"
+    },
+    {
+      "id": "B05",
+      "module": "数据库与备份",
+      "status": "verified",
+      "evidence": [
+        "docs/ui-redesign/browser-results.json",
+        "README.md",
+        "database/migrations",
+        "database/backups",
+        "docs/completion/deployment-check.json",
+        "docs/completion/final-verification.json"
+      ],
+      "note": "v1历史条目；分析/语音以v2真实AI实现为准，查询限制与知识库/通知以v3为准。"
+    },
+    {
+      "id": "B06",
+      "module": "完整业务验收",
+      "status": "verified",
+      "evidence": [
+        "docs/ui-redesign/browser-results.json",
+        "docs/ai/api-tests.json",
+        "docs/ai/browser-tests.json",
+        "docs/completion/final-verification.json"
+      ],
+      "note": "v1历史条目；分析/语音以v2真实AI实现为准，查询限制与知识库/通知以v3为准。"
+    },
+    {
+      "id": "B07",
+      "module": "后续开放项",
+      "status": "documented_scope_boundary",
+      "evidence": [
+        "docs/ui-redesign/browser-results.json",
+        "docs/completion/final-verification.json"
+      ],
+      "note": "v1历史条目；分析/语音以v2真实AI实现为准，查询限制与知识库/通知以v3为准。"
+    },
+    {
+      "id": "AI01",
+      "module": "模型配置",
+      "status": "verified",
+      "evidence": [
+        "docs/ai/api-tests.json",
+        "docs/ai/browser-tests.json",
+        "docs/completion/provider-blocker.json",
+        "docs/completion/final-verification.json"
+      ]
+    },
+    {
+      "id": "AI02",
+      "module": "连接测试",
+      "status": "verified",
+      "evidence": [
+        "docs/ai/api-tests.json",
+        "docs/ai/browser-tests.json",
+        "docs/completion/provider-blocker.json",
+        "docs/completion/final-verification.json"
+      ]
+    },
+    {
+      "id": "AI03",
+      "module": "AI销售助手",
+      "status": "verified",
+      "evidence": [
+        "docs/ai/api-tests.json",
+        "docs/ai/browser-tests.json",
+        "docs/completion/provider-blocker.json",
+        "docs/completion/final-verification.json"
+      ]
+    },
+    {
+      "id": "AI04",
+      "module": "接待分析",
+      "status": "verified",
+      "evidence": [
+        "docs/ai/api-tests.json",
+        "docs/ai/browser-tests.json",
+        "docs/completion/provider-blocker.json",
+        "docs/completion/final-verification.json"
+      ]
+    },
+    {
+      "id": "AI05",
+      "module": "语音转写",
+      "status": "verified",
+      "evidence": [
+        "docs/ai/api-tests.json",
+        "docs/ai/browser-tests.json",
+        "docs/completion/provider-blocker.json",
+        "docs/completion/final-verification.json"
+      ]
+    },
+    {
+      "id": "AI06",
+      "module": "AI辅导方案",
+      "status": "verified",
+      "evidence": [
+        "docs/ai/api-tests.json",
+        "docs/ai/browser-tests.json",
+        "docs/completion/provider-blocker.json",
+        "docs/completion/final-verification.json"
+      ]
+    },
+    {
+      "id": "AI07",
+      "module": "报表解读",
+      "status": "verified",
+      "evidence": [
+        "docs/ai/api-tests.json",
+        "docs/ai/browser-tests.json",
+        "docs/completion/provider-blocker.json",
+        "docs/completion/final-verification.json"
+      ]
+    },
+    {
+      "id": "AI08",
+      "module": "调用日志",
+      "status": "verified",
+      "evidence": [
+        "docs/ai/api-tests.json",
+        "docs/ai/browser-tests.json",
+        "docs/completion/provider-blocker.json",
+        "docs/completion/final-verification.json"
+      ]
+    },
+    {
+      "id": "AI09",
+      "module": "历史复盘副本",
+      "status": "verified",
+      "evidence": [
+        "docs/ai/api-tests.json",
+        "docs/ai/browser-tests.json",
+        "docs/completion/provider-blocker.json",
+        "docs/completion/final-verification.json"
+      ]
+    },
+    {
+      "id": "AI10",
+      "module": "失败与安全",
+      "status": "verified",
+      "evidence": [
+        "docs/ai/api-tests.json",
+        "docs/ai/browser-tests.json",
+        "docs/completion/provider-blocker.json",
+        "docs/completion/final-verification.json"
+      ]
+    },
+    {
+      "id": "K01",
+      "module": "知识维护",
+      "status": "verified",
+      "evidence": [
+        "docs/completion/knowledge-tests.json",
+        "docs/completion/final-verification.json"
+      ]
+    },
+    {
+      "id": "K02",
+      "module": "知识权限",
+      "status": "verified",
+      "evidence": [
+        "docs/completion/knowledge-tests.json",
+        "docs/completion/final-verification.json"
+      ]
+    },
+    {
+      "id": "K03",
+      "module": "AI知识检索",
+      "status": "verified",
+      "evidence": [
+        "docs/completion/knowledge-tests.json",
+        "docs/completion/final-verification.json"
+      ]
+    },
+    {
+      "id": "T01",
+      "module": "团队邀请",
+      "status": "verified",
+      "evidence": [
+        "docs/completion/collaboration-tests.json",
+        "docs/completion/final-verification.json"
+      ]
+    },
+    {
+      "id": "T02",
+      "module": "成员管理",
+      "status": "verified",
+      "evidence": [
+        "docs/completion/collaboration-tests.json",
+        "docs/completion/final-verification.json"
+      ]
+    },
+    {
+      "id": "U09",
+      "module": "账号找回",
+      "status": "verified",
+      "evidence": [
+        "docs/completion/collaboration-tests.json",
+        "docs/completion/final-verification.json"
+      ]
+    },
+    {
+      "id": "N01",
+      "module": "站内通知",
+      "status": "verified",
+      "evidence": [
+        "docs/completion/collaboration-tests.json",
+        "docs/completion/final-verification.json"
+      ]
+    },
+    {
+      "id": "Q01",
+      "module": "完整对话查询",
+      "status": "verified",
+      "evidence": [
+        "docs/completion/query-tests.json",
+        "docs/completion/final-verification.json"
+      ]
+    },
+    {
+      "id": "Q02",
+      "module": "全量工作台统计",
+      "status": "verified",
+      "evidence": [
+        "docs/completion/query-tests.json",
+        "docs/completion/final-verification.json"
+      ]
+    },
+    {
+      "id": "Q03",
+      "module": "完整审计查询",
+      "status": "verified",
+      "evidence": [
+        "docs/completion/query-tests.json",
+        "docs/completion/final-verification.json"
+      ]
+    },
+    {
+      "id": "H01",
+      "module": "AI会话历史",
+      "status": "verified",
+      "evidence": [
+        "docs/completion/query-tests.json",
+        "docs/completion/final-verification.json"
+      ]
+    },
+    {
+      "id": "H02",
+      "module": "AI解读历史",
+      "status": "verified",
+      "evidence": [
+        "docs/completion/query-tests.json",
+        "docs/completion/final-verification.json"
+      ]
+    },
+    {
+      "id": "V01",
+      "module": "完整业务与权限验收",
+      "status": "verified",
+      "evidence": [
+        "docs/completion/prd-readback.json",
+        "docs/completion/final-verification.json"
+      ]
+    },
+    {
+      "id": "B08",
+      "module": "外部能力边界",
+      "status": "documented_scope_boundary",
+      "evidence": [
+        "docs/completion/prd-readback.json",
+        "docs/completion/final-verification.json"
+      ]
+    }
+  ],
+  "artifact_validation": {
+    "prd_v3_readback": true,
+    "v3_sheet_data_rows": 14,
+    "v3_sheet_style_readback": true
+  },
+  "remaining": [],
+  "warning": "v1模拟分析与查询上限为历史版本，按v2/v3及本次最终验收替代。",
+  "final_evidence": "docs/completion/final-verification.json"
+}

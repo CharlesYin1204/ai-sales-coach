@@ -1,6 +1,6 @@
-# 鲸策 Whale Coach · AI 教练与知识协作平台
+# AI销售教练 · 对话复盘与团队辅导平台
 
-鲸策是一套面向教练、咨询顾问和知识型团队的 AI 工作平台，将客户档案、对话、知识库、行动计划、团队协作、语音能力和运营管理整合到统一系统中。
+AI销售教练是一套面向销售团队、咨询顾问和服务团队的 AI 工作平台，将客户档案、对话复盘、知识库、行动计划、团队协作、语音能力和运营管理整合到统一系统中。
 
 ## 主要功能
 
@@ -33,8 +33,8 @@
 ## 本地安装
 
 ```bash
-git clone https://github.com/CharlesYin1204/whale-coach.git
-cd whale-coach
+git clone https://github.com/CharlesYin1204/ai-sales-coach.git
+cd ai-sales-coach
 npm ci
 cp .env.example .env
 npm run db:init
